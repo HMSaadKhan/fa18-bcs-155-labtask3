@@ -2,8 +2,7 @@
   "name": "projectapi",
   "version": "0.0.0",
   "description": "",
-  "type": "module",
-  "main": "index.js",
+  "private":"true",
   "scripts": {
     "start": "node ./bin/www",
     "web":"node ./bin/www",
