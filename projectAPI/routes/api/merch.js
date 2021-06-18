@@ -55,6 +55,7 @@ router.put("/", async(req, res)=>{
      data.Anime = req.body.Anime;
      data.Type = req.body.Type;
      await data.save();
+     
      return res.send(data)  
     
  })
